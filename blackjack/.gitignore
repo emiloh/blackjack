@@ -1,8 +1,8 @@
-*.ans
-**/data/secret
+# *.ans
+# **/data/secret
 __pycache__
 *.class
 *.aux
 *.log
 .DS_Store
-*.pdf
+# *.pdf
