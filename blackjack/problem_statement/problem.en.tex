@@ -1,26 +1,25 @@
 \problemname{Blackjack}
-Blackjack Bob, as the name suggests, likes to play Blackjack every opportunity he gets.
-Blackjack Bob has since his first game of Blackjack played at the same casino. 
-Every dealer knows that Blackjack Bob is a little special, since he belives in the lucky number $3$.
-Blackjack Bob will always ask the dealers for 3 cards regardless of him busting by taking the third card.
+Blackjack Bob, as his nickname suggests, likes to play Blackjack every chance he gets.
+Bob has always played at the same casino, and every dealer knows he is unlike other players.
+Bob's lucky number is $3$ and thus always asks for $3$ cards regardless of the risk of losing by asking for a third card before checking the previous two.
 
-After Blackjack Bob retired he lost his ability to calculate the total value of the three cards dealt to him.
-As he still wants to play, he got his nephew to write all the values of all the cards on a piece of paper.
-Depsite the handwriting, Blackjack Bob is able to determine that the cards $2-10$ has the value on the card, 
-\textit{Jacks}, \textit{Queens} and \textit{Kings} have the value $10$ and \textit{Aces} have the values $1$ or $11$.
-
-Can you help Blackjack Bob determine the best possible result he can achieve with each of the hands he gets dealt?
+After his long career playing Blackjack, Bob has forgotten how to calculate the value of the hand dealt to him.
+He still enjoys playing blackjack and has therefore asked his nephew to write down the values of the different cards.
+Despite his nephew's horrible handwriting, Bob can determine the numerical cards' values of $2-10$ are the same as the number written on them.
+He can also determine that the court cards \textit{Jack}, \textit{Queen} and \textit{King} have a value of $10$, while the \textit{Ace} can be either $1$ or $11$.
+Despite his nephew's notes have helped him determine the cards' values, he still seems incapable of determining the best possible result of his dealt hand.
+Can you help Bob determine the best possible result from his given hand?
 
 \section*{Input}
 
-The first line of the input contains one integer $N$, $1 \leq N \leq 5$, which is the number of hands 
-Blackjack Bob will be dealt. The following $N$ contains the three cards of each hand.
+The first line of the input contains one integer $N$, $1 \leq N \leq 5$, which is the number of hands Blackjack Bob will be dealt.
+The following $N$ lines contain three cards each representing a dealt hand to Bob.
 
 
 \section*{Output}
 
 For each hand output the best possible result.
 Output "BLACKJACK" if the cards can add up to 21.
-Output "LOST" if the sum of the card are more than 21.
-Otherwise output the largest sum possible.
+Output "LOST" if the sum of the cards is more than 21.
+Otherwise, output the largest sum possible.
 
