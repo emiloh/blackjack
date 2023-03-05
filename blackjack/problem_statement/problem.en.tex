@@ -1,16 +1,26 @@
 \problemname{Blackjack}
-indledning
+Blackjack Bob, as the name suggests, likes to play Blackjack every opportunity he gets.
+Blackjack Bob has since his first game of Blackjack played at the same casino. 
+Every dealer knows that Blackjack Bob is a little special, since he belives in the lucky number $3$.
+Blackjack Bob will always the dealers for 3 cards regardless of him busting by taking the third card.
+
+After Blackjack Bob retired he lost his ability to calculate the total value of the three cards dealt to him.
+As he still wants to play, he got his nephew to write all the values of all the cards on a piece of paper.
+Depsite the handwriting, Blackjack Bob is able to determine that the cards $2-10$ has the value on the card, 
+\textit{Jacks}, \textit{Queens} and \textit{Kings} have the value $10$ and \textit{Aces} have the values $1$ or $11$.
+
+Can you help Blackjack Bob determine the total value of the hands he gets dealt?
 
 \section*{Input}
 
-The input is an integer $N$ which 
-The input contains one line with the integer $1 \leq N \leq 5$ which is the number of games you will play.
-The following $N$ lines contain the three cards you have been dealt.
+The first line of the input contains one integer $N$, $1 \leq N \leq 5$, which is the number of hands 
+Blackjack Bob will be dealt. The following $N$ contains the three cards of each hand.
+
 
 \section*{Output}
 
 For each hand output the best possible result.
-Output "BLACKJACK" if the cards add up to 21.
+Output "BLACKJACK" if the cards can add up to 21.
 Output "LOST" if the sum of the card are more than 21.
 Otherwise output the largest sum possible.
 
